@@ -4,8 +4,7 @@
   "description": "WebSocket Server for Remote Window",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js",
-    "test": "echo yosi"
+    "start": "node ./index.js"
   },
   "repository": {
     "type": "git",
