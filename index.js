@@ -1,10 +1,5 @@
 "use strict";
 
-// socket.ioの読み込み
-const socketIO = require("socket.io");
-// サーバーでSocket.IOを使える状態にする
-const io = socketIO.listen(server);
-
 module.exports.setupWebSocketServer = (port) => {
   const WebSocketServer = require('ws').Server;
   const wsServer = new WebSocketServer({ port: port });

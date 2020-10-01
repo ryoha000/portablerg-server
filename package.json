@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ryoha000/portablerg-server/issues"
   },
-  "homepage": "https://github.com/ryoha000/portablerg-server#readme"
+  "homepage": "https://github.com/ryoha000/portablerg-server#readme",
+  "dependencies": {
+    "ws": "^7.3.1"
+  }
 }
